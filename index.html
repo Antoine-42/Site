@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>LiveFoot+ Modern</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Jaune personnalisé */
+    .bg-livefoot-yellow { background-color: #FFD700; }
+    .text-livefoot-yellow { color: #FFD700; }
+    .border-livefoot-yellow { border-color: #FFD700; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-black shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-livefoot-yellow">LiveFoot+</h1>
+      <nav class="space-x-4">
+        <a href="#" class="hover:text-livefoot-yellow">Ligue 1</a>
+        <a href="#" class="hover:text-livefoot-yellow">Premier League</a>
+        <a href="#" class="hover:text-livefoot-yellow">Serie A</a>
+        <a href="#" class="hover:text-livefoot-yellow">Transferts</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="max-w-7xl mx-auto px-4 py-6 grid grid-cols-1 md:grid-cols-4 gap-6">
+
+    <!-- Colonne gauche : Matchs -->
+    <section class="md:col-span-1 bg-black p-4 rounded-xl border border-livefoot-yellow shadow">
+      <h2 class="text-xl font-semibold text-livefoot-yellow mb-4">Matchs du jour</h2>
+      <ul class="space-y-2">
+        <li class="bg-gray-800 p-3 rounded flex justify-between">
+          <span>PSG</span><span class="text-livefoot-yellow">2 - 1</span><span>OM</span>
+        </li>
+        <li class="bg-gray-800 p-3 rounded flex justify-between">
+          <span>Lens</span><span class="text-livefoot-yellow">0 - 0</span><span>Lyon</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Colonne centrale : Actus -->
+    <section class="md:col-span-2 bg-black p-4 rounded-xl border border-gray-700 shadow">
+      <h2 class="text-xl font-semibold text-livefoot-yellow mb-4">Actus principales</h2>
+      <div class="space-y-4">
+        <article class="p-4 bg-gray-800 rounded-lg shadow-sm">
+          <h3 class="font-bold text-lg text-livefoot-yellow">Mbappé sur le départ ?</h3>
+          <p class="text-gray-300 text-sm mt-1">Le joueur du PSG pourrait annoncer sa décision d’ici la fin de la semaine.</p>
+        </article>
+        <article class="p-4 bg-gray-800 rounded-lg shadow-sm">
+          <h3 class="font-bold text-lg text-livefoot-yellow">Premier League : Arsenal en forme</h3>
+          <p class="text-gray-300 text-sm mt-1">Les Gunners continuent sur leur lancée avec une 5e victoire consécutive.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Colonne droite : Transferts -->
+    <section class="md:col-span-1 bg-black p-4 rounded-xl border border-livefoot-yellow shadow">
+      <h2 class="text-xl font-semibold text-livefoot-yellow mb-4">Transferts</h2>
+      <ul class="space-y-2 text-sm text-gray-200">
+        <li>🔄 Zidane pressenti au Real Madrid</li>
+        <li>🔄 Neymar intéresse un club saoudien</li>
+        <li>🔄 Umtiti vers l’Italie ?</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center py-4 mt-10 border-t border-gray-800">
+    <p class="text-sm text-livefoot-yellow">&copy; 2025 LiveFoot+ | Projet créé par Antoine ⚽</p>
+  </footer>
+
+</body>
+</html>
